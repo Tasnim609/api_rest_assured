@@ -54,7 +54,7 @@ public class PutTest {
 	@Disabled
 	public void putTestOneGo() {
 		//Multiple base Path
-		//String basePath="api/users/{id}/accounts/{accountId}";
+	//	String basePath="api/users/{id}/accounts/{accountId}";
 
 		String baseUrl="https://reqres.in/";
 		String basePath="api/users/{id}";

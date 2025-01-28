@@ -36,7 +36,7 @@ public class GETTest {
 	//	System.out.println(String.format("Status Code : [%s] -%s" , response.getStatusCode(), "Success"));
 	}
 	@Test
-@Disabled
+//@Disabled
 	public void getTest01() {
 	RestAssured.given().baseUri(baseUrl)//Pre-condition
 	.basePath(getAllProductsEndPoint)
@@ -159,7 +159,7 @@ System.out.println(jPath.getString("category.id[2].name"));
 		
 }
 	@Test
-	//@Disabled
+	@Disabled
 	public void SingleGetDataFindOut() {
 		/*
 		 * Find out the how many Test Data we have 
